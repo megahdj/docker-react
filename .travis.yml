@@ -8,4 +8,10 @@ before_install:
 script:
   - docker run -e CI=true megahdj/docker-react npm run test
 
+deploy: 
+  provider: azure_web_apps
+  username: traviscideploy
+  password: TravisDeployPasswordSecret88
+  site: megahdj-docker-react  
+
 language: generic  
