@@ -10,8 +10,8 @@ script:
 
 deploy: 
   provider: azure_web_apps
-  username: megahdj-docker-react
-  password: AW4DBiBR1nuYXpZWhK318vDoorBgoell8hDllqWTrnCoqMvqQtFaoa7dERzE
+  username: "$DOCKER_REGISTRY_SERVER_USERNAME"
+  password: "$DOCKER_REGISTRY_SERVER_PASSWORD"
   site: megahdj-docker-react  
 
 language: generic  
