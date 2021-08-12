@@ -12,6 +12,6 @@ deploy:
   provider: azure_web_apps
   username: megahdj-docker-react
   password: AW4DBiBR1nuYXpZWhK318vDoorBgoell8hDllqWTrnCoqMvqQtFaoa7dERzE
-  site: http://megahdj-docker-react.azurewebsites.net  
+  site: megahdj-docker-react  
 
 language: generic  
