@@ -13,7 +13,7 @@ RUN npm run build
 
 #base image
 FROM nginx
-
+EXPOSE 80
 #dependancies
 COPY --from=builder /app/build /usr/share/nginx/html
 
